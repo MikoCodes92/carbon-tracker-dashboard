@@ -1,0 +1,4 @@
+build/
+data/footprint_history.csv
+*.exe
+*.out

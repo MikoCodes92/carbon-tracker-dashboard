@@ -1,0 +1,84 @@
+# ===============================
+# Python / Django (auth_service)
+# ===============================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+auth_service/venv/
+auth_service/env/
+auth_service/.venv/
+
+# Django stuff
+auth_service/*.log
+auth_service/*.pot
+auth_service/*.pyc
+auth_service/*.pyo
+auth_service/*.pyd
+auth_service/*.sqlite3
+auth_service/db.sqlite3
+
+# Environment variables
+auth_service/.env
+auth_service/.env.*
+
+# Python packaging
+auth_service/*.egg
+auth_service/*.egg-info/
+auth_service/dist/
+auth_service/build/
+auth_service/*.wheel
+
+# IDEs and editors
+auth_service/.vscode/
+auth_service/.idea/
+auth_service/*.sublime-project
+auth_service/*.sublime-workspace
+
+# ===============================
+# C++ Microservice (carbon-calculator-service)
+# ===============================
+carbon-calculator-service/build/
+carbon-calculator-service/*.exe
+carbon-calculator-service/*.out
+carbon-calculator-service/data/footprint_history.csv
+
+# ===============================
+# Node / Frontend (carbon-frontend)
+# ===============================
+# Logs
+carbon-frontend/logs/
+carbon-frontend/*.log
+carbon-frontend/npm-debug.log*
+carbon-frontend/yarn-debug.log*
+carbon-frontend/yarn-error.log*
+carbon-frontend/pnpm-debug.log*
+carbon-frontend/lerna-debug.log*
+
+# Node modules and build
+carbon-frontend/node_modules/
+carbon-frontend/dist/
+carbon-frontend/dist-ssr/
+carbon-frontend/*.local
+
+# Editor directories and files
+carbon-frontend/.vscode/
+carbon-frontend/.idea/
+carbon-frontend/.DS_Store
+carbon-frontend/*.suo
+carbon-frontend/*.ntvs*
+carbon-frontend/*.njsproj
+carbon-frontend/*.sln
+carbon-frontend/*.sw?
+
+# ===============================
+# Global / OS
+# ===============================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
