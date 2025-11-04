@@ -1,71 +1,47 @@
-**Carbon Tracker Microservices
-**
-Description
-Carbon Tracker is a real-time carbon footprint monitoring system. It integrates the Climatox API for emissions data, a C++ microservice for calculations, Django for authentication, and OpenAI for actionable insights. The platform supports tracking energy, transportation, and diet-related emissions.
+# 🌍 Carbon Tracker Microservices
 
-Features
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]
 
-Real-time carbon footprint calculation
+---
 
-Microservice architecture with C++ backend and HTTP API
+## 🔹 About
+**Carbon Tracker** monitors and analyzes your **carbon footprint** from daily activities.  
+Powered by **C++ microservices**, **Django auth**, **Climatox API**, and **OpenAI AI suggestions**.
 
-Authentication using Django
+---
 
-AI-driven recommendations using OpenAI
+## 🔹 Features
+- Real-time carbon calculations  
+- AI-driven reduction tips  
+- Tracks energy, transport, and food emissions  
 
-Supports multiple emission sources: electricity, transport, and food
+---
 
-Tech Stack
+## 🔹 Tech Stack
+- **Frontend:** React, Vite, Tailwind  
+- **Backend:** C++ microservices  
+- **Auth:** Django REST  
+- **AI:** OpenAI GPT  
+- **API:** Climatox  
 
-Frontend: React + Vite
+---
 
-Backend: C++ microservice (CarbonFootprintAnalyzer.exe)
+## 🔹 Quick Start
 
-Authentication: Django REST API
-
-AI: OpenAI API for insights
-
-APIs: Climatox API
-
-Getting Started
-
-Clone the repository
-
+```bash
 git clone https://github.com/<username>/carbon-tracker.git
 cd carbon-tracker
 
-
-Frontend setup
-
+# Frontend
 cd carbon-frontend
 npm install
 npm run dev
 
-
-Frontend runs at: http://localhost:5173
-
-C++ microservice setup
-
-cd carbon-calculator-service/build
+# C++ Microservice
+cd ../carbon-calculator-service/build
 ./CarbonFootprintAnalyzer.exe
 
-
-Server runs at: http://localhost:8080
-
-Django authentication service
-
-cd carbon-auth-service
+# Django Auth
+cd ../carbon-auth-service
+python manage.py migrate
 python manage.py runserver
-
-
-Environment Variables
-
-OPENAI_API_KEY → OpenAI API key
-
-CLIMATOX_API_KEY → Climatox API key
-
-Usage
-
-Track carbon emissions by inputting data for electricity, transport, and meals.
-
-Get AI-generated recommendations for reducing your carbon footprint.
